@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "400906004840",
+    "project_id": "appemi-f1230",
+    "storage_bucket": "appemi-f1230.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:400906004840:android:d6d51b9076d64138be8edd",
+        "android_client_info": {
+          "package_name": "com.example.app_emi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "400906004840-15m362llmfbtpmef6sgbvpo47940h6rr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbf2JfRRNOnXNcgQmw1t0RgpceQkIXeu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "400906004840-15m362llmfbtpmef6sgbvpo47940h6rr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
