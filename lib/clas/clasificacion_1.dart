@@ -49,6 +49,31 @@ class _Clasificacion_1State extends State<Clasificacion_1> {
               margin: EdgeInsets.symmetric(horizontal: 50),
               child: TextField(
                 decoration: InputDecoration(
+                    hintText: "esto es una prueba",
+                    border: InputBorder.none,
+                    suffix: GestureDetector(
+                      child: Icon(Icons.backspace),
+                      onTap: () {
+                        LL.clear();
+                      },
+                    )),
+                style: TextStyle(fontSize: 17),
+                controller: LL,
+                keyboardType: TextInputType.number,
+              ),
+            ),
+            const SizedBox(
+              height: 10,
+            ),
+            Container(
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(10),
+                border: Border.all(color: Colors.grey),
+              ),
+              padding: EdgeInsets.symmetric(horizontal: 15),
+              margin: EdgeInsets.symmetric(horizontal: 50),
+              child: TextField(
+                decoration: InputDecoration(
                     hintText: "Limite Liquido",
                     border: InputBorder.none,
                     suffix: GestureDetector(
