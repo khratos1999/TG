@@ -38,7 +38,7 @@ class _Clasificacion_1State extends State<Clasificacion_1> {
               ),
             ),
             Center(
-              child: Text('Limite Liquido'),
+              child: Text('Limit Liquidosss'),
             ),
             Container(
               decoration: BoxDecoration(
